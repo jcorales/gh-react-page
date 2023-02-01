@@ -11,4 +11,4 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN}}
           reporter: github-pr-review # Change reporter.
-          stylelint_input: './src'
+          stylelint_input: './'
